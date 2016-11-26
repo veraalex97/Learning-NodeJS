@@ -16,7 +16,7 @@
 var http = require('http');
 
 // http.createServer(function(request, response) {
-//   response.writeHead(200);
+//   response.writeHead(200); //if its sucessful it gives a 200 error (means success)
 //   response.write("Hello World");
 //   response.end();
 // }).listen(8080);
